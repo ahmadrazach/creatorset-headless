@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Gotham";
+    src: local("Gotham-Regular"),
+        url("./Gotham-Font/GothamBook.ttf") format("truetype");
+}
+@font-face {
+    font-family: "GothamBold";
+    src: local("Gotham-Bold"),
+        url("./Gotham-Font/GothamBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GothamLight";
+    src: local("Gotham-Light"),
+        url("./Gotham-Font/GothamLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: url("./Gotham-Font/GothamMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "adineue PRO Cyr Light Web";
+    src: url("./adineuePRO_1/adineuePROCyr-LightWeb.eot");
+    src: url("./adineuePRO_1/adineuePROCyr-LightWeb.eot?#iefix")
+            format("embedded-opentype"),
+        url("./adineuePRO_1/adineuePROCyr-LightWeb.woff") format("woff"),
+        url("./adineuePRO_1/adineuePROCyr-LightWeb.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "adineue PRO Cyr Bold Web";
+    src: url("./adineuePRO_1/adineuePROCyr-BoldWeb.eot");
+    src: url("./adineuePRO_1/adineuePROCyr-BoldWeb.eot?#iefix")
+            format("embedded-opentype"),
+        url("./adineuePRO_1/adineuePROCyr-BoldWeb.woff") format("woff"),
+        url("./adineuePRO_1/adineuePROCyr-BoldWeb.ttf") format("truetype");
+}
+
+body {
+    font-family: "GothamMedium", "Arial Narrow", Arial, sans-serif !important;
+}
+
+h6 {
+    /* font-family: "GothamMedium!important"; */
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+span {
+    font-family: "GothamMedium";
+}
+
+.mantine-Drawer-overlay {
+    z-index: 201; /* Lower z-index to position the overlay below the icon */
+}
+
+.mantine-Drawer-body {
+    padding: 0px;
+}
